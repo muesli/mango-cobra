@@ -2,7 +2,7 @@ package mcobra
 
 import (
 	"github.com/muesli/mango"
-	"github.com/muesli/mango/mpflag"
+	mpflag "github.com/muesli/mango-pflag"
 	"github.com/spf13/cobra"
 )
 
