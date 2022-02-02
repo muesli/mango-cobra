@@ -21,7 +21,7 @@ var (
 )
 
 func main() {
-    manPage, err := mcobra.NewManPageFromCobra(1, rootCmd)
+    manPage, err := mcobra.NewManPage(1, rootCmd)
     if err != nil {
         panic(err)
     }

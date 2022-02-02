@@ -7,7 +7,7 @@ import (
 )
 
 // NewManPageFromCobra creates a new mango.ManPage from a cobra.Command.
-func NewManPageFromCobra(section uint, c *cobra.Command) (*mango.ManPage, error) {
+func NewManPage(section uint, c *cobra.Command) (*mango.ManPage, error) {
 	manPage := mango.NewManPage(section, c.Name(), c.Short).
 		WithLongDescription(c.Long)
 
