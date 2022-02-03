@@ -1,9 +1,9 @@
 # mango-cobra
 
-+[![Latest Release](https://img.shields.io/github/release/muesli/mango-cobra.svg)](https://github.com/muesli/mango-cobra/releases)
-+[![Build Status](https://github.com/muesli/mango-cobra/workflows/build/badge.svg)](https://github.com/muesli/mango-cobra/actions)
-+[![Go ReportCard](https://goreportcard.com/badge/muesli/mango-cobra)](https://goreportcard.com/report/muesli/mango-cobra)
-+[![GoDoc](https://godoc.org/github.com/golang/gddo?status.svg)](https://pkg.go.dev/github.com/muesli/mango-cobra)
+[![Latest Release](https://img.shields.io/github/release/muesli/mango-cobra.svg)](https://github.com/muesli/mango-cobra/releases)
+[![Build Status](https://github.com/muesli/mango-cobra/workflows/build/badge.svg)](https://github.com/muesli/mango-cobra/actions)
+[![Go ReportCard](https://goreportcard.com/badge/muesli/mango-cobra)](https://goreportcard.com/report/muesli/mango-cobra)
+[![GoDoc](https://godoc.org/github.com/golang/gddo?status.svg)](https://pkg.go.dev/github.com/muesli/mango-cobra)
 
 cobra adapter for [mango](https://github.com/muesli/mango).
 
