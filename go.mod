@@ -3,7 +3,7 @@ module github.com/muesli/mango-cobra
 go 1.17
 
 require (
-	github.com/muesli/mango v0.1.0
+	github.com/muesli/mango v0.2.0
 	github.com/muesli/mango-pflag v0.1.0
 	github.com/muesli/roff v0.1.0
 	github.com/spf13/cobra v1.5.0
