@@ -1,6 +1,6 @@
 module github.com/muesli/mango-cobra
 
-go 1.17
+go 1.18
 
 require (
 	github.com/muesli/mango v0.2.0
