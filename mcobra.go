@@ -30,7 +30,11 @@ func addCommandTree(m *mango.ManPage, c *cobra.Command, parent *mango.Command) e
 		item.Example = c.Example
 		m.Root = *item
 	} else {
-		item = mango.NewCommand(c.Name(), c.Short, c.Use)
+		desc := c.Short
+		if c.Long != "" {
+			desc = c.Long
+		}
+		item = mango.NewCommand(c.Name(), desc, c.Use)
 		item.Example = c.Example
 		if err := parent.AddCommand(item); err != nil {
 			return err
